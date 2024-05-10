@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>website - Wisnu & Shofy</title>
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<style>
+      #musicButton, #heartRateControl, #bgMusic, #popSound, .click-catcher {
+    font-family: Times New Roman;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 11;
+    border-style: none;
+    background: transparent;
+    cursor: url('https://cdn.discordapp.com/attachments/1108762577602871346/1190700239171104911/image_2.png?') 5 5, auto;
+    top: 0; /* Posisikan elemen di bagian atas layar */
+}
+</style>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+          <button id="musicButton" style="color:red;">🔈 klik iconnya dong biar ada musik yang dikiri itu ya😝 </button>
+
+<!-- Audio yang akan diputar -->
+<audio id="bgMusic" loop>
+  <source src="assets/mp3/bsberanda.mp3" type="audio/mp3">
+</audio>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+        <a href="#" class="logo">
+          <p style="color:white;">web kami</p>
+        </a>
+        <div class="header-btn-group">
+        </div>
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.instagram.com/wsnptra_?igsh=dG1jeWJzaWV5eDRs" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/sshoffyy?igsh=cWM4cnJ0Mmt6Njc2" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/story.aboutus10?igsh=amd3bnExejRjYWU2" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <button class="btn btn-primary">instagram kami</button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <h2 class="h1 hero-title">Hi, welcome to website Wisnu & Shofy</h2>
+
+          <p class="hero-text">
+            hai everyone, selamat stalking hehehe, disini kita simpan moment history hubungan kita,janji kita, expektasi kita, lucu ya ! 😋🫣😝
+          </p>
+
+          <div class="btn-group">
+            <button>
+              <a href="cute.html" class="btn btn-primary">cute box</a> 
+              </button>
+
+            <button>
+              <a href ="keepnote1.html" class="btn btn-secondary">kutipan</a>
+              </button>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #POPULAR
+      -->
+
+      <section class="popular" id="destination">
+        <div class="container">
+
+          <p class="section-subtitle">Moment</p>
+
+          <h2 class="h2 section-title">first meet up</h2>
+
+          <p class="section-text">
+            hai sayang, masih ingat moment pertama kali kita kenal awal dari aplikasi sampai kita ketemu??? dan ngenalin keluarga?? ga expect keluaga kita masing masing bisa ngerestuin hubungan kita, dibawah ada beberapa moment kita pas awal kita ketemu.. yuk liat!!
+          </p>
+
+          <ul class="popular-list">
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-1.jpg" alt="San miguel, italy" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Tasik - 2023</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">batam - jakarta - tasik</a>
+                  </h3>
+
+                  <p class="card-text" style="font-family: 'La Belle Aurore', cursive;">
+                    sayang masih ingat ini?? hahaha lucu ya!! next aku ga bakal kaku kaya gini!! kita buat yang lebih lucu!!
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-2.jpg" alt="Burj khalifa, dubai" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Tasik - 2023</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Moment photobox!!</a>
+                  </h3>
+
+                  <p class="card-text" style="font-family: 'La Belle Aurore', cursive;">
+                    hahahahha masih ingat yang ini sayang?? photobox pertama kali kita?? kalo diinget inget lucu jugaa!!!
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-3.jpg" alt="Kyoto temple, japan" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Jakarta - 2023</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Pasmal - Ballon</a>
+                  </h3>
+
+                  <p class="card-text" style="font-family: 'La Belle Aurore', cursive;">
+                    lucu banget kamu pengen ballon sampe nyari nyari, dan untungnya ada didepan ahahhaah, masih keinget kamu takut sama hantu hantuan
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-primary">i love you more</button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PACKAGE
+      -->
+
+      <section class="package" id="package">
+        <div class="container">
+
+          <p class="section-subtitle">our expectation</p>
+
+          <h2 class="h2 section-title">we always remember this</h2>
+          <p class="section-text">banyak juga ekspektasi yang kita buat ya... salah satunya yang dibawah ini.. aku paling inget kamu pengen haus.. da can ka cumponan jadi kainget bae;(</p>
+
+          <ul class="package-list">
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-1.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Singapore</h3>
+
+                  <p class="card-text">
+                     aku masih inget dari sekian banyak nya yang kamu pengen, salah satunya kamu pengen kesini.. semoga kewujud nanti kita ya
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text"> Wisnu & Shofy</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">2</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Singapore</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-2.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">GBLA</h3>
+
+                  <p class="card-text">
+                    masih keinget pas kamu bilang di bis kamu mau pulang, kita ngelewatin stadion itu, kamu bilang ekspektasi kamu pengen kesini;)
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text"> Wisnu & Shofy</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">2</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Bandung</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-3.jpg" alt="Santorini Island's Weekend Vacation" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Family</h3>
+
+                  <p class="card-text">
+                    no capt, cukup kita yang merasakan ya aku ga tau harus bilang gimana;)
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">our</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Relationship</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+
+          <button class="btn btn-primary">masih ada banyak lagi ya</button>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="gallery" id="gallery">
+        <div class="container">
+
+          <p class="section-subtitle">cute relationship</p>
+
+          <h2 class="h2 section-title">our history</h2>
+
+          <p class="section-text">
+            lucu lucu ya... aku kaku kamu bagus.. aku bagus kamu kaku akwkkwkw... next kalo ketemu kita bikin pose jungkir ya biar kaya spiderman.
+          </p>
+
+          <ul class="gallery-list">
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-1.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-2.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-3.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-4.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-5.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" id="contact">
+        <div class="container">
+
+          <div class="cta-content">
+            <p class="section-subtitle">i want you read this 🥹</p>
+
+            <h2 class="h2 section-title">this for you from my hearth</h2>
+
+            <p class="section-text" style="font-family: 'La Belle Aurore', cursive;">
+              Hai sayang, ini aku... mungkin terdengar sedikit dilebih lebihkan tapi aku menulis ini sesuai dengan isi hatiku... terimakasih karna selalu ada disisku.. terimakasih karna telah memilihku.. aku tau.. aku tidaklah semapan pria disana.. aku tidak lah se keren cowo diluaran sana.. tapi ini aku.. aku adalah aku.. mereka adalah mereka.. dan kamu harus tau.. aku selalu berusaha memberikan yang terbaik buat kamu.. jika selama ini saat bersamaku memang tidak bisa membuatmu bahagia.. membuatmu nyaman.. membuatmu aman.. aku minta maaf.. tapi aku ga bakal nyerah kok.. aku sayang kamu lebih dari aku menyayangi diriku.. <br> sayang kurangin insyecure nya ya.. kurangin nangisnya.. harus lebih pd dan lebih kuat buat ngejalanin hidup kamu.. jangan kalah sama amarah.. jangan kalah sama emosi.. jangan kalah sama ego mu, ketakutanmu, sisi gelap dirimu.. <br> kamu bagiku wanita yang berbeda.. kamu bagiku segalanya.. aku bakal slalu support kamu disetiap kamu melangkah.. jangan takut sendiri ya.. meskipun aku tidak ada.. tapi percayalah.. aku slalu mendorongmu untuk mencapai keinginan kamu.. aku sayang kamu 🥹💐🩷
+            </p>
+          </div>
+
+          <button class="btn btn-secondary">Aku sayang kamu  🥹💐🩷</button>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+<footer>
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="">this for you</a> i make this in my hearth
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Wisnu</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">💐🫣🩷</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Shofy</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+  <script src="assets/js/audio.js"></script>
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
